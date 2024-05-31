@@ -1,0 +1,6 @@
+__pycache__
+datasets/real/
+datasets/synthetic/
+logs/
+models/pretrained/
+D-NeRF/

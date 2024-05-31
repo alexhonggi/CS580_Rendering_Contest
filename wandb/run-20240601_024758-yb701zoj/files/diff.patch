@@ -1,0 +1,31 @@
+diff --git a/train.py b/train.py
+index 7a2176a..a5db3e9 100644
+--- a/train.py
++++ b/train.py
+@@ -1,6 +1,7 @@
+ import os
+ import time
+ import json
++import wandb
+ 
+ from opt import get_opts
+ import torch
+@@ -549,8 +550,8 @@ def main(hparams):
+     log_path = f"logs/{exp_name}"
+     hparams.log_path = log_path
+     hparams.debug_dir = log_path + "/debug"
+-
+     system = NeRFSystem(hparams)
++    wandb.watch(system)
+     ckpt_cb = ModelCheckpoint(
+         dirpath=log_path,
+         filename="{epoch:d}",
+@@ -611,5 +612,8 @@ def main(hparams):
+ 
+ 
+ if __name__ == "__main__":
++    # add wandb
++    wandb.init()
+     hparams = get_opts()
++    wandb.config.update(hparams)
+     main(hparams)

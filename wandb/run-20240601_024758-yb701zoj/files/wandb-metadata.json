@@ -1,0 +1,264 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-05-31T17:47:58.808355",
+    "startedAt": "2024-05-31T17:47:58.145756",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--dataset_name",
+        "blender",
+        "--root_dir",
+        "./datasets/synthetic/livingroom",
+        "--near",
+        "0.05",
+        "--far",
+        "8.0",
+        "--scale_factor",
+        "1",
+        "--N_importance",
+        "64",
+        "--img_wh",
+        "400",
+        "300",
+        "--noise_std",
+        "1",
+        "--num_epochs",
+        "30",
+        "--batch_size",
+        "1024",
+        "--optimizer",
+        "adam",
+        "--lr",
+        "5e-4",
+        "--lr_scheduler",
+        "steplr",
+        "--decay_step",
+        "2",
+        "4",
+        "8",
+        "--decay_gamma",
+        "0.5",
+        "--exp_name",
+        "blender_livingroom_skip1_res400_nerf_tcnn",
+        "--bound",
+        "6",
+        "--model_type",
+        "nerf_tcnn",
+        "--predict_normal",
+        "--predict_mirror_mask",
+        "--trace_secondary_rays",
+        "--train_geometry_stage",
+        "--use_plane_consistent_loss",
+        "--val_idx",
+        "0",
+        "--train_skip_step",
+        "1",
+        "--chunk",
+        "8192",
+        "--only_trace_rays_in_mirrors"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/alexhonggi/CS580_Rendering_Contest.git",
+        "commit": "1f490a12a266ffde96eef7459317fa31f1945634"
+    },
+    "email": "alexhonggi@gmail.com",
+    "root": "/home/tx/honggi/Mirror-NeRF",
+    "host": "PC-TX",
+    "username": "tx",
+    "executable": "/home/tx/miniconda3/envs/mirror_nerf/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 4491.471999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4491.472,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 379.8861198425293
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 30.95299530029297
+    }
+}
